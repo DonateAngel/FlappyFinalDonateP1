@@ -252,18 +252,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1.3197237}
+  m_Offset: {x: 0.054352283, y: -0.037874103}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 20.48, y: 5.12}
+    oldSize: {x: 25.6, y: 2.9}
     newSize: {x: 20.48, y: 5.12}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 20.48, y: 2.4805524}
+  m_Size: {x: 25.5891, y: 2.8348844}
   m_EdgeRadius: 0
 --- !u!212 &667052851
 SpriteRenderer:
@@ -306,7 +306,7 @@ SpriteRenderer:
   m_SortingLayerID: -1915001859
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6926ba693dcb8b140813135e178fe33a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e6dcc0145d4360b43b07d4ffce64dca7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -325,8 +325,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667052849}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0443, y: -2.629, z: 0}
-  m_LocalScale: {x: 1.0889918, y: 1.0386363, z: 1}
+  m_LocalPosition: {x: 0.32, y: -3.35, z: 0}
+  m_LocalScale: {x: 0.831195, y: 1.1086726, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1391915104}
@@ -519,7 +519,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.13, y: 0.67}
+    oldSize: {x: 1.8, y: 2.1}
     newSize: {x: 1.13, y: 0.67}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -527,21 +527,23 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.565, y: 0.005}
-      - {x: 0.525, y: 0.044999998}
-      - {x: 0.285, y: 0.235}
-      - {x: 0.005, y: 0.33499998}
-      - {x: -0.285, y: 0.33499998}
-      - {x: -0.345, y: 0.325}
+    - - {x: 0.084739566, y: 0.0788862}
+      - {x: 0.14325461, y: 0.3774879}
+      - {x: 0.16403961, y: 0.4595096}
+      - {x: 0.14108747, y: 0.5719235}
+      - {x: -0.13045812, y: 0.98766136}
+      - {x: -0.32194307, y: 0.839889}
+      - {x: -0.61591595, y: 0.7683171}
       - {x: -0.48499998, y: 0.24499999}
-      - {x: -0.565, y: 0.105}
-      - {x: -0.565, y: -0.145}
-      - {x: -0.545, y: -0.24499999}
-      - {x: -0.39499998, y: -0.33499998}
-      - {x: 0.21499999, y: -0.33499998}
-      - {x: 0.435, y: -0.185}
-      - {x: 0.555, y: -0.105}
-      - {x: 0.565, y: -0.044999998}
+      - {x: -0.8728592, y: 0.01879944}
+      - {x: -0.8236014, y: -0.23120055}
+      - {x: -0.7666587, y: -0.38045803}
+      - {x: -0.8564354, y: -0.34734508}
+      - {x: -0.338621, y: -0.36070248}
+      - {x: 0.12284893, y: -0.35300806}
+      - {x: 0.06780273, y: -0.24657184}
+      - {x: 0.0027945489, y: -0.15425748}
+      - {x: 0.072425365, y: -0.09425745}
 --- !u!50 &835465705
 Rigidbody2D:
   serializedVersion: 4
@@ -604,7 +606,7 @@ SpriteRenderer:
   m_SortingLayerID: -1915001859
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1013494281, guid: 2561a033f9085d0449d652563e1e2051, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2e7720b6639bd474bbf6424891db30bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -675,8 +677,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1391915103}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.032782614, y: 2.4926915, z: 0}
-  m_LocalScale: {x: 1, y: 1.0000613, z: 1}
+  m_LocalPosition: {x: -0.40187648, y: 4.5238075, z: 0}
+  m_LocalScale: {x: 2.2862282, y: 2.5490575, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 667052852}
@@ -723,7 +725,7 @@ SpriteRenderer:
   m_SortingLayerID: 697350639
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2253d4f0f9406224694dd77e51c71be4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7e54c30784300c743a3b67e685d54d4a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1014,6 +1016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverText: {fileID: 1523108291}
   gameover: 0
+  scrollspeed: -1.5
 --- !u!4 &1704628526
 Transform:
   m_ObjectHideFlags: 0
