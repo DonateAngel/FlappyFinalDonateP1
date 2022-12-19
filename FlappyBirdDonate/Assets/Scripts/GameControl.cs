@@ -2,14 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameControl : MonoBehaviour
 {
-    public static GameControl instance;
-    public GameObject gameOverText;
-    public bool gameover = false;
-    public float scrollspeed = -1.5f;
-    // Start is called before the first frame update
+   public static GameControl instance;
+   public GameObject gameOvertext;
+   public Text scoreText;
+   private int score =0; 
+   public bool gameOver = false;
+   public float scrollSpeed =-1.5f;
+
+
     void Awake()
     {
         if (instance == null)
@@ -22,18 +26,26 @@ public class GameControl : MonoBehaviour
         }
 
     }
+    public void BirdScored()
+    {
+        if (gameOver)
+        {
+            return;
+        }
+        score++;
+        scoreText.text = "Score: " + score.ToString ();
+    }
 
-    // Update is called once per frame
     void Update()
     {
-        if (gameover == true && Input.GetMouseButtonDown (0))
+        if (gameOver == true && Input.GetMouseButtonDown (0))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
     public void BirdDied()
     {
-        gameOverText.SetActive(true);
-        gameover = true;
+        gameOvertext.SetActive(true);
+        gameOver = true;
     }
 }
